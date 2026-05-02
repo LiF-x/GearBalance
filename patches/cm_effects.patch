@@ -1,0 +1,88 @@
+diff --git a/data/cm_effects.xml b/data/cm_effects.xml
+index 0c2b836..5146c1f 100755
+--- a/data/cm_effects.xml
++++ b/data/cm_effects.xml
+@@ -146,10 +146,17 @@
+         <parameter type="DRINK_IMMUNE" applytype="INCREASE" />
+         <icon>art/2D/Effects/Full.png</icon>
+     </effect>
+-    <effect id="26" name="Skill Raised: Forging">
++    <effect id="26" name="Skill Raised: Metalwork and Geology">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+         <description>2615</description>
+         <parameter type="SKILL" skill="4" applytype="INCREASE" />
++        <parameter type="SKILL" skill="3" applytype="INCREASE" />
++        <parameter type="SKILL" skill="5" applytype="INCREASE" />
++        <parameter type="SKILL" skill="52" applytype="INCREASE" />
++        <parameter type="SKILL" skill="17" applytype="INCREASE" />
++        <parameter type="SKILL" skill="2" applytype="INCREASE" />
++        <parameter type="SKILL" skill="16" applytype="INCREASE" />
++        <parameter type="SKILL" skill="31" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Forging.png</icon>
+     </effect>
+     <effect id="27" name="Skill Raised: Armorsmithing">
+@@ -161,7 +168,10 @@
+     <effect id="28" name="Skill Raised: Carpentry">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+         <description>2617</description>
++        <parameter type="SKILL" skill="1" applytype="INCREASE" />
+         <parameter type="SKILL" skill="8" applytype="INCREASE" />
++        <parameter type="SKILL" skill="9" applytype="INCREASE" />
++        <parameter type="SKILL" skill="10" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Carpentry.png</icon>
+     </effect>
+     <effect id="29" name="Skill Raised: Bowcraft">
+@@ -170,10 +180,13 @@
+         <parameter type="SKILL" skill="9" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Bowcraft.png</icon>
+     </effect>
+-    <effect id="30" name="Skill Raised: Warfare engineering">
++    <effect id="30" name="Skill Raised: Building">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+         <description>2619</description>
+-        <parameter type="SKILL" skill="10" applytype="INCREASE" />
++        <parameter type="SKILL" skill="18" applytype="INCREASE" />
++        <parameter type="SKILL" skill="19" applytype="INCREASE" />
++        <parameter type="SKILL" skill="20" applytype="INCREASE" />
++        <parameter type="SKILL" skill="7" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Warfare_engineering.png</icon>
+     </effect>
+     <effect id="31" name="Skill Raised: Herbalism">
+@@ -191,6 +204,9 @@
+     <effect id="33" name="Skill Raised: Alchemy">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+         <description>2622</description>
++        <parameter type="SKILL" skill="11" applytype="INCREASE" />
++        <parameter type="SKILL" skill="12" applytype="INCREASE" />
++        <parameter type="SKILL" skill="14" applytype="INCREASE" />
+         <parameter type="SKILL" skill="15" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Alchemy.png</icon>
+     </effect>
+@@ -200,16 +216,24 @@
+         <parameter type="SKILL" skill="20" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Architecture.png</icon>
+     </effect>
+-    <effect id="35" name="Skill Raised: Procuration">
++    <effect id="35" name="Skill Raised: Leatherworking">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+         <description>2624</description>
++        <parameter type="SKILL" skill="51" applytype="INCREASE" />
++        <parameter type="SKILL" skill="22" applytype="INCREASE" />
+         <parameter type="SKILL" skill="23" applytype="INCREASE" />
++        <parameter type="SKILL" skill="25" applytype="INCREASE" />
++        <parameter type="SKILL" skill="26" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Procuration.png</icon>
+     </effect>
+-    <effect id="36" name="Skill Raised: Cooking">
++    <effect id="36" name="Skill Raised: Farming">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+         <description>2625</description>
++        <parameter type="SKILL" skill="21" applytype="INCREASE" />
++        <parameter type="SKILL" skill="6" applytype="INCREASE" />
++        <parameter type="SKILL" skill="32" applytype="INCREASE" />
+         <parameter type="SKILL" skill="24" applytype="INCREASE" />
++        <parameter type="SKILL" skill="13" applytype="INCREASE" />
+         <icon>art/2D/Effects/Skill_Raised_Cooking.png</icon>
+     </effect>
+     <effect id="37" name="Skill Raised: Piety">
+
