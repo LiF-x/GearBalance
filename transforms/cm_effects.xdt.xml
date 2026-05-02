@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effects xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <effect id="26" name="Skill Raised: Metalwork and Geology" xdt:Locator="Match(id)" xdt:Transform="Replace">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+        <description>2615</description>
+        <parameter type="SKILL" skill="4" applytype="INCREASE" />
+        <parameter type="SKILL" skill="3" applytype="INCREASE" />
+        <parameter type="SKILL" skill="5" applytype="INCREASE" />
+        <parameter type="SKILL" skill="52" applytype="INCREASE" />
+        <parameter type="SKILL" skill="17" applytype="INCREASE" />
+        <parameter type="SKILL" skill="2" applytype="INCREASE" />
+        <parameter type="SKILL" skill="16" applytype="INCREASE" />
+        <parameter type="SKILL" skill="31" applytype="INCREASE" />
+        <icon>art/2D/Effects/Skill_Raised_Forging.png</icon>
+    </effect>
+  <effect id="28" name="Skill Raised: Carpentry" xdt:Locator="Match(id)" xdt:Transform="Replace">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+        <description>2617</description>
+        <parameter type="SKILL" skill="1" applytype="INCREASE" />
+        <parameter type="SKILL" skill="8" applytype="INCREASE" />
+        <parameter type="SKILL" skill="9" applytype="INCREASE" />
+        <parameter type="SKILL" skill="10" applytype="INCREASE" />
+        <icon>art/2D/Effects/Skill_Raised_Carpentry.png</icon>
+    </effect>
+  <effect id="30" name="Skill Raised: Building" xdt:Locator="Match(id)" xdt:Transform="Replace">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+        <description>2619</description>
+        <parameter type="SKILL" skill="18" applytype="INCREASE" />
+        <parameter type="SKILL" skill="19" applytype="INCREASE" />
+        <parameter type="SKILL" skill="20" applytype="INCREASE" />
+        <parameter type="SKILL" skill="7" applytype="INCREASE" />
+        <icon>art/2D/Effects/Skill_Raised_Warfare_engineering.png</icon>
+    </effect>
+  <effect id="33" name="Skill Raised: Alchemy" xdt:Locator="Match(id)" xdt:Transform="Replace">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+        <description>2622</description>
+        <parameter type="SKILL" skill="11" applytype="INCREASE" />
+        <parameter type="SKILL" skill="12" applytype="INCREASE" />
+        <parameter type="SKILL" skill="14" applytype="INCREASE" />
+        <parameter type="SKILL" skill="15" applytype="INCREASE" />
+        <icon>art/2D/Effects/Skill_Raised_Alchemy.png</icon>
+    </effect>
+  <effect id="35" name="Skill Raised: Leatherworking" xdt:Locator="Match(id)" xdt:Transform="Replace">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+        <description>2624</description>
+        <parameter type="SKILL" skill="51" applytype="INCREASE" />
+        <parameter type="SKILL" skill="22" applytype="INCREASE" />
+        <parameter type="SKILL" skill="23" applytype="INCREASE" />
+        <parameter type="SKILL" skill="25" applytype="INCREASE" />
+        <parameter type="SKILL" skill="26" applytype="INCREASE" />
+        <icon>art/2D/Effects/Skill_Raised_Procuration.png</icon>
+    </effect>
+  <effect id="36" name="Skill Raised: Farming" xdt:Locator="Match(id)" xdt:Transform="Replace">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
+        <description>2625</description>
+        <parameter type="SKILL" skill="21" applytype="INCREASE" />
+        <parameter type="SKILL" skill="6" applytype="INCREASE" />
+        <parameter type="SKILL" skill="32" applytype="INCREASE" />
+        <parameter type="SKILL" skill="24" applytype="INCREASE" />
+        <parameter type="SKILL" skill="13" applytype="INCREASE" />
+        <icon>art/2D/Effects/Skill_Raised_Cooking.png</icon>
+    </effect>
+</effects>

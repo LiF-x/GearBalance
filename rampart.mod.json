@@ -18,11 +18,11 @@
     "dataPatches": [
       {
         "target": "data/cm_effects.xml",
-        "patch": "patches/cm_effects.patch"
+        "transform": "transforms/cm_effects.xdt.xml"
       },
       {
         "target": "data/item_effects.xml",
-        "patch": "patches/item_effects.patch"
+        "replace": "data/item_effects.xml"
       }
     ]
   }
