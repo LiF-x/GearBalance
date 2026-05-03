@@ -22,7 +22,7 @@
       },
       {
         "target": "data/item_effects.xml",
-        "replace": "data/item_effects.xml"
+        "transform": "transforms/item_effects.xdt.xml"
       }
     ]
   }
