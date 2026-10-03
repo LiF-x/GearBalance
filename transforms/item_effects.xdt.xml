@@ -396,8 +396,8 @@
   <item id="1580" xdt:Locator="Match(id)" xdt:Transform="Replace"> <!-- Villein's Clothes -->
         <effect id="28">0.2 4</effect>
     </item>
-  <item xdt:Locator="Match(id)" xdt:Transform="Remove" />
-  <item xdt:Locator="Match(id)" xdt:Transform="Remove" />
-  <item xdt:Locator="Match(id)" xdt:Transform="Remove" />
-  <item xdt:Locator="Match(id)" xdt:Transform="Remove" />
+  <item id="1522" xdt:Locator="Match(id)" xdt:Transform="Remove" />
+  <item id="1523" xdt:Locator="Match(id)" xdt:Transform="Remove" />
+  <item id="1524" xdt:Locator="Match(id)" xdt:Transform="Remove" />
+  <item id="1537" xdt:Locator="Match(id)" xdt:Transform="Remove" />
 </items>
