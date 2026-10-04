@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "GearBalance",
+  "name": "GearBalance",
+  "version": "0.1.0",
+  "description": "Gear balance tweaks (made for RpCliff). Patches cm_effects \u002B item_effects and ships a script.",
+  "authors": [
+    "Christophe Roblin"
+  ],
+  "source": {
+    "repo": "LiF-x/GearBalance",
+    "commit": "8b1c82cc2b4378cc263c98e8651d0b4a215c7dcc"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ServerAutoloader"
+  ],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      {
+        "src": "mod.cs",
+        "dest": "mods/GearBalance/mod.cs"
+      },
+      {
+        "src": "items/",
+        "dest": "mods/GearBalance/items/"
+      }
+    ],
+    "dataPatches": [
+      {
+        "target": "data/cm_effects.xml",
+        "transform": "transforms/cm_effects.xdt.xml"
+      },
+      {
+        "target": "data/item_effects.xml",
+        "transform": "transforms/item_effects.xdt.xml"
+      }
+    ]
+  }
+}
